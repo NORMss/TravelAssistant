@@ -1,0 +1,35 @@
+# --- сборка ---
+.gradle/
+build/
+*/build/
+*/*/build/
+captures/
+.cxx/
+.externalNativeBuild/
+
+# --- локальное окружение ---
+local.properties
+.kotlin/
+
+# --- подпись релиза: в репозиторий не попадает никогда ---
+keystore.properties
+*.jks
+*.keystore
+
+# --- IDE ---
+*.iml
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# --- система ---
+.DS_Store
+
+# --- агенты ---
+# Настройки проекта версионируются: они часть того, как здесь работают.
+.claude/settings.local.json
+
+# Скиллы Android — чужой код (github.com/android/skills), 2 МБ и 240 файлов
+# без файла лицензии внутри. Класть их в публичный репозиторий незачем:
+# ставятся одной командой, см. docs/TOOLING.md.
+.claude/skills/

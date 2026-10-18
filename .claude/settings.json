@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew:*)",
+      "Bash(android:*)",
+      "Bash(adb devices)",
+      "Bash(adb -s * shell input:*)",
+      "Bash(adb -s * logcat -d:*)",
+      "Bash(adb shell input:*)",
+      "Bash(adb logcat -d:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(javap:*)",
+      "WebFetch(domain:developer.android.com)",
+      "WebFetch(domain:dl.google.com)",
+      "WebFetch(domain:repo1.maven.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}

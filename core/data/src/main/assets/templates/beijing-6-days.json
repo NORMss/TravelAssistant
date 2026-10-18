@@ -1,0 +1,3187 @@
+{
+  "id": "beijing-6-days",
+  "title": "Пекин за шесть дней",
+  "summary": "Стена, Гугун, Universal и улица призраков. Маршрут рассчитан на шесть полных дней; адреса записаны иероглифами — их можно показать таксисту.",
+  "destinations": [
+    {
+      "name": "Пекин",
+      "countryCode": "CN",
+      "localeTag": "zh-CN",
+      "zoneId": "Asia/Shanghai",
+      "currency": "CNY",
+      "center": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      }
+    }
+  ],
+  "days": [
+    {
+      "dayIndex": 1,
+      "title": "Прилёт",
+      "label": "День 1",
+      "summary": "",
+      "stops": [
+        {
+          "key": "d1s0",
+          "orderIndex": 0,
+          "title": "Прилёт в Дасин, паспортный контроль",
+          "localTitle": "北京大兴国际机场",
+          "transliteration": "Běijīng Dàxīng guójì jīchǎng · «Пекинский международный аэропорт Дасин»",
+          "startTime": "04:55",
+          "durationMinutes": 55,
+          "category": "FLIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d1s1",
+          "orderIndex": 1,
+          "title": "Didi до отеля",
+          "localTitle": "滴滴出行 · 快车",
+          "transliteration": "Dīdī chūxíng · kuàichē · «Didi, тариф Express»",
+          "startTime": "05:50",
+          "durationMinutes": 65,
+          "category": "TRANSIT",
+          "address": {
+            "local": "大兴机场 到达层 网约车上车点",
+            "display": "Покажите водителю / вбейте в Didi",
+            "transliteration": "Dàxīng jīchǎng · dàodá céng · wǎngyuēchē shàngchē diǎn — «Дасин, этаж прилёта, точка посадки такси по приложению»",
+            "point": {
+              "lat": 39.497342,
+              "lng": 116.412315
+            }
+          },
+          "tip": "",
+          "tag": "250–400 CNY"
+        },
+        {
+          "key": "d1s3",
+          "orderIndex": 2,
+          "title": "Кофе и завтрак — главная точка утра",
+          "localTitle": "星巴克 工体北路店",
+          "transliteration": "Xīngbākè Gōngtǐ běilù diàn · «Starbucks на Гунтибэйлу»",
+          "startTime": "07:55",
+          "durationMinutes": 60,
+          "category": "FOOD",
+          "address": {
+            "local": "北京市朝阳区工体北路13号 世茂百货F1层E103 星巴克",
+            "display": "Starbucks с 7:00, первый этаж «Шимао»",
+            "transliteration": "Gōngtǐ běilù 13 hào, Shìmào bǎihuò F1 E103 · 800 м от отеля, 11 мин пешком · 39.9351, 116.4494",
+            "point": {
+              "lat": 39.9351,
+              "lng": 116.4494
+            }
+          },
+          "tip": "",
+          "tag": "120–200 CNY"
+        },
+        {
+          "key": "d1s4",
+          "orderIndex": 3,
+          "title": "Саньлитунь и большой Uniqlo",
+          "localTitle": "三里屯太古里 · 优衣库",
+          "transliteration": "Sānlǐtún Tàigǔlǐ · Yōuyīkù · «Тайку Ли Саньлитунь · Uniqlo»",
+          "startTime": "10:00",
+          "durationMinutes": 120,
+          "category": "SHOPPING",
+          "address": {
+            "local": "北京市朝阳区三里屯路19号 三里屯太古里",
+            "display": "Саньлитунь Тайкули",
+            "transliteration": "Sānlǐtún lù 19 hào Sānlǐtún Tàigǔlǐ · магазины с 10:00 до 22:00 · 39.9359, 116.4554",
+            "point": {
+              "lat": 39.9359,
+              "lng": 116.4554
+            }
+          },
+          "tip": "Магазины открываются в 10:00, раньше приезжать незачем.",
+          "tag": "по желанию"
+        },
+        {
+          "key": "d1s5",
+          "orderIndex": 4,
+          "title": "Обед и кондиционер, 550 м от Uniqlo",
+          "localTitle": "世茂工三",
+          "transliteration": "Shìmào Gōngsān · «Шимао Гунсань, на картах Google — Beijing Shimao Department Store»",
+          "startTime": "12:00",
+          "durationMinutes": 90,
+          "category": "FOOD",
+          "address": {
+            "local": "北京市朝阳区工体北路13号院3号楼 世茂工三",
+            "display": "ТЦ «Шимао Гунсань» на Гунтибэйлу",
+            "transliteration": "Gōngtǐ běilù 13 hào yuàn 3 hào lóu · 10:00–22:00 · 39.9342, 116.4494",
+            "point": {
+              "lat": 39.9342,
+              "lng": 116.4494
+            }
+          },
+          "tip": "",
+          "tag": "160–300 CNY"
+        },
+        {
+          "key": "d1s7",
+          "orderIndex": 5,
+          "title": "Ужин на улице призраков",
+          "localTitle": "簋街 · 很久以前羊肉串",
+          "transliteration": "Guǐjiē · Hěnjiǔ yǐqián yángròuchuàn · «Гуйцзе · шашлычная „Давным-давно“»",
+          "startTime": "18:30",
+          "durationMinutes": null,
+          "category": "FOOD",
+          "address": {
+            "local": "北京市东城区北新桥头条 很久以前羊肉串",
+            "display": "Шашлычная «Давным-давно» на Гуйцзе",
+            "transliteration": "Běixīnqiáo tóutiáo Hěnjiǔ yǐqián yángròuchuàn · 39.9413, 116.4206 · до 22:00",
+            "point": {
+              "lat": 39.9413,
+              "lng": 116.4206
+            }
+          },
+          "tip": "",
+          "tag": "300–440 CNY"
+        }
+      ],
+      "forks": [
+        {
+          "key": "d1q1",
+          "question": "Убранный номер есть уже утром?",
+          "localQuestion": "房态",
+          "options": [
+            {
+              "key": "да",
+              "kind": "AS_PLANNED",
+              "text": "Заселяйтесь и спите сразу. Саньлитунь переезжает на вторую половину дня: магазины и фудкорты работают до 22:00, вечером там даже приятнее. Это лучший из всех вариантов дня.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "DETOUR",
+              "text": "Багаж в хранение, идём по основному плану. Оставьте телефон и попросите позвонить — номер может освободиться и в одиннадцать.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d1s2",
+            "d1s6"
+          ],
+          "categories": [
+            "HOTEL"
+          ]
+        },
+        {
+          "key": "d1q2",
+          "question": "Starbucks на Гунтибэйлу открыт, когда вы дошли?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "AS_PLANNED",
+              "text": "Кофе, выпечка, туалет и розетки до 09:50, потом 550 метров пешком до Uniqlo. Идеальный вариант: за утро вы делаете ровно один переход.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "DETOUR",
+              "text": "Второй по близости — 新中街 , «Швейцарские апартаменты» L103, по Google в воскресенье с 08:00: километр на запад от «Шимао». Совсем без беготни — вернуться в лобби отеля, там кофе бесплатный и круглосуточный, а в 10:00 взять большой кофе во флагманском 星巴克臻选 в Тайкули (10:00–22:20).",
+              "localTerms": [
+                "新中街",
+                "星巴克臻选"
+              ]
+            }
+          ],
+          "stopKeys": [
+            "d1s3"
+          ],
+          "categories": [
+            "FOOD",
+            "FOOD"
+          ]
+        },
+        {
+          "key": "d1q3",
+          "question": "После ночного перелёта все валятся с ног?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "CANCEL",
+              "text": "Саньлитунь отменяется целиком. Завтрак, круг вокруг квартала, лобби, заселение. Ничего не потеряно: 17-го вы в Тайкули возвращаетесь с деньгами и силами.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану. Держите темп медленным: в первый день выигрывает тот, кто меньше суетится.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d1s4",
+            "d1s5"
+          ],
+          "categories": [
+            "SHOPPING"
+          ]
+        },
+        {
+          "key": "d1q4",
+          "question": "Вечером дождь или гроза?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Гуйцзе — открытая улица, под дождём там тоскливо. Утка 京尊烤鸭店 в 60 метрах от отеля или фудкорт в Raffles City, 1,1 км и работает до 22:00.",
+              "localTerms": [
+                "京尊烤鸭店"
+              ]
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "Гуйцзе по плану. До дальнего конца улицы 25 минут пешком — если сил нет, берите любое заведение на восточной половине.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d1s7"
+          ],
+          "categories": [
+            "FOOD"
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "title": "Великая стена",
+      "label": "День 2",
+      "summary": "",
+      "stops": [
+        {
+          "key": "d2s0",
+          "orderIndex": 0,
+          "title": "Didi к стене, обычная машина",
+          "localTitle": "滴滴出行 · 快车",
+          "transliteration": "Dīdī chūxíng · kuàichē · «Didi, тариф Express»",
+          "startTime": "08:00",
+          "durationMinutes": null,
+          "category": "TRANSIT",
+          "address": {
+            "local": "北京市怀柔区渤海镇慕田峪路 慕田峪长城景区售票处",
+            "display": "Стена Мутяньюй — касса и визит-центр",
+            "transliteration": "Huáiróu qū Bóhǎi zhèn Mùtiányù lù · 40.4327, 116.5640 · индекс 101406",
+            "point": {
+              "lat": 40.4327,
+              "lng": 116.564
+            }
+          },
+          "tip": "",
+          "tag": "200–300 CNY · 1 ч 20 – 1 ч 40"
+        },
+        {
+          "key": "d2s1",
+          "orderIndex": 1,
+          "title": "Касса Мутяньюй",
+          "localTitle": "慕田峪长城 检票口",
+          "transliteration": "Mùtiányù Chángchéng jiǎnpiàokǒu · «Мутяньюй · пункт проверки билетов»",
+          "startTime": "09:15",
+          "durationMinutes": 20,
+          "category": "TICKET",
+          "address": null,
+          "tip": "Билеты именные и по паспорту — без него на стену не пустят.",
+          "tag": "оплачено онлайн"
+        },
+        {
+          "key": "d2s2",
+          "orderIndex": 2,
+          "title": "Шаттл до подъёмников",
+          "localTitle": "摆渡车",
+          "transliteration": "bǎidùchē · «шаттл»",
+          "startTime": "09:35",
+          "durationMinutes": 10,
+          "category": "TRANSIT",
+          "address": null,
+          "tip": "",
+          "tag": "в пакете, туда-обратно"
+        },
+        {
+          "key": "d2s3",
+          "orderIndex": 3,
+          "title": "Кресельная канатка",
+          "localTitle": "索道 · 6号敌楼",
+          "transliteration": "suǒdào · liù hào dílóu · «кресельная канатка · башня № 6»",
+          "startTime": "09:50",
+          "durationMinutes": 15,
+          "category": "TRANSIT",
+          "address": null,
+          "tip": "Канатка наверх, тобогган вниз. В дождь жёлоб закрывают — спрашивайте на кассе.",
+          "tag": "140 × 4 = 560 CNY"
+        },
+        {
+          "key": "d2s4",
+          "orderIndex": 4,
+          "title": "Основной участок стены",
+          "localTitle": "6号至18号敌楼",
+          "transliteration": "liù hào zhì shíbā hào dílóu · «башни с 6-й по 18-ю»",
+          "startTime": "10:15",
+          "durationMinutes": 150,
+          "category": "SIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d2s5",
+          "orderIndex": 5,
+          "title": "Только если очень хочется дальше",
+          "localTitle": "生态步道 · 21–23号敌楼",
+          "transliteration": "shēngtài bùdào · «экологическая тропа» в обход закрытого участка",
+          "startTime": "12:45",
+          "durationMinutes": null,
+          "category": "SIGHT",
+          "address": null,
+          "tip": "",
+          "tag": "по желанию"
+        },
+        {
+          "key": "d2s6",
+          "orderIndex": 6,
+          "title": "Спуск на тобоггане",
+          "localTitle": "滑道",
+          "transliteration": "huádào · «жёлоб, тобогган»",
+          "startTime": "14:00",
+          "durationMinutes": null,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": "в билете 索道 + 滑道"
+        },
+        {
+          "key": "d2s7",
+          "orderIndex": 7,
+          "title": "Обед в деревне",
+          "localTitle": "慕田峪村 农家菜",
+          "transliteration": "Mùtiányù cūn nóngjiācài · «деревня Мутяньюй · крестьянская кухня»",
+          "startTime": "14:30",
+          "durationMinutes": 60,
+          "category": "FOOD",
+          "address": null,
+          "tip": "",
+          "tag": "250–400 CNY"
+        }
+      ],
+      "forks": [
+        {
+          "key": "d2q1",
+          "question": "В горах дождь?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Стена работает, и в тумане она даже красивее. Но тобогган в дождь обычно закрывают — жёлоб мокрый. Спрашивайте на кассе фразой «今天滑道开吗？» из списка ниже, вниз спускайтесь канаткой — и закладывайте на это время: в отзывах за дождливый день очередь на спуск доходила до часа. Дождевики продают у входа.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану: 索道 вверх к 6-й башне, 滑道 вниз.",
+              "localTerms": [
+                "索道",
+                "滑道"
+              ]
+            }
+          ],
+          "stopKeys": [
+            "d2s3",
+            "d2s6"
+          ],
+          "categories": [
+            "TRANSIT",
+            "ACTIVITY"
+          ]
+        },
+        {
+          "key": "d2q2",
+          "question": "Сильный ветер или гроза?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "CANCEL",
+              "text": "Подъёмники останавливают первыми, и вернуть за них деньги проще, чем подняться пешком: от кассы до 6-й башни 30–40 минут крутой лестницы. Переносить стену некуда: 15-е занято Гугуном с именным билетом на дату, а по понедельникам в Пекине закрыты и Гугун, и почти все музеи. Запасной вариант на 14-е — не музей, а крытый молл и ранняя утка.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану. Куртка нужна в любом случае: наверху на 5–7 градусов холоднее и всегда сквозит.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d2s3",
+            "d2s6"
+          ],
+          "categories": [
+            "TRANSIT",
+            "ACTIVITY"
+          ]
+        },
+        {
+          "key": "d2q3",
+          "question": "Очередь на тобогган длиннее получаса?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Спускайтесь гондолой 缆车 , билет берётся наверху. Понедельник — самый людный день на стене: остальные достопримечательности закрыты, и все едут сюда.",
+              "localTerms": [
+                "缆车"
+              ]
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "Стойте, это того стоит: 1 580 метров спуска и скорость выбираете сами.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d2s6"
+          ],
+          "categories": [
+            "ACTIVITY"
+          ]
+        },
+        {
+          "key": "d2q4",
+          "question": "К 15:45 не успеваете к выезду?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Режьте участок: 6→14 башня вместо 6→18, экологическую тропу к 21–23 башням выбрасывайте не задумываясь. Обратная дорога 1,5–2 часа, и ужин с уткой в 19:30 — единственный жёсткий якорь вечера.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану, с обедом в деревне.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d2s4",
+            "d2s8"
+          ],
+          "categories": [
+            "SIGHT",
+            "TRANSIT"
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "title": "Гугун",
+      "label": "День 3",
+      "summary": "",
+      "stops": [
+        {
+          "key": "d3s0",
+          "orderIndex": 0,
+          "title": "Завтрак в отеле",
+          "localTitle": "早餐",
+          "transliteration": "zǎocān · «завтрак»",
+          "startTime": "08:00",
+          "durationMinutes": null,
+          "category": "FOOD",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d3s1",
+          "orderIndex": 1,
+          "title": "Метро, линия 2 и линия 1",
+          "localTitle": "东四十条 → 建国门 → 王府井",
+          "transliteration": "Dōngsìshítiáo → Jiànguómén → Wángfǔjǐng · названия трёх станций метро",
+          "startTime": "09:00",
+          "durationMinutes": 30,
+          "category": "TRANSIT",
+          "address": {
+            "local": "王府井地铁站",
+            "display": "Станция метро Ванфуцзин",
+            "transliteration": "Wángfǔjǐng dìtiě zhàn — «станция метро Ванфуцзин», линия 1",
+            "point": {
+              "lat": 39.90695,
+              "lng": 116.405279
+            }
+          },
+          "tip": "Гугун пускает по предварительной записи и по паспорту. Записываться заранее.",
+          "tag": "16 CNY на всех"
+        },
+        {
+          "key": "d3s2",
+          "orderIndex": 2,
+          "title": "Парк на месте стены Императорского города",
+          "localTitle": "皇城根遗址公园",
+          "transliteration": "Huángchénggēn yízhǐ gōngyuán · «парк на руинах стены Императорского города»",
+          "startTime": "09:40",
+          "durationMinutes": 40,
+          "category": "SIGHT",
+          "address": {
+            "local": "北京市东城区南河沿大街 皇城根遗址公园",
+            "display": "Парк на месте стены Императорского города",
+            "transliteration": "Nánhéyán dàjiē Huángchénggēn yízhǐ gōngyuán — «ул. Наньхэянь, парк Хуанчэнгэнь»",
+            "point": {
+              "lat": 39.927423,
+              "lng": 116.400103
+            }
+          },
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d3s3",
+          "orderIndex": 3,
+          "title": "Ранний обед перед входом",
+          "localTitle": "新疆拉条",
+          "transliteration": "Xīnjiāng lātiáo · «синьцзянская тянутая лапша»",
+          "startTime": "10:20",
+          "durationMinutes": 35,
+          "category": "FOOD",
+          "address": {
+            "local": "北京市东城区王府井西街7号 新疆拉条",
+            "display": "Синьцзянская лапша у Ванфуцзина",
+            "transliteration": "Wángfǔjǐng xī jiē 7 hào Xīnjiāng lātiáo — «Ванфуцзин Сицзе, 7»",
+            "point": {
+              "lat": 39.90695,
+              "lng": 116.405279
+            }
+          },
+          "tip": "",
+          "tag": "80–140 CNY"
+        },
+        {
+          "key": "d3s4",
+          "orderIndex": 4,
+          "title": "Вход, дневная сессия",
+          "localTitle": "午门",
+          "transliteration": "Wǔmén · «Полуденные (Меридианные) ворота» — вход в Гугун",
+          "startTime": "11:00",
+          "durationMinutes": 20,
+          "category": "TICKET",
+          "address": null,
+          "tip": "Вход в парк Цзиншань напротив северных ворот Гугуна — лучшая панорама города.",
+          "tag": ""
+        },
+        {
+          "key": "d3s5",
+          "orderIndex": 5,
+          "title": "Центральная ось",
+          "localTitle": "太和殿 · 保和殿 · 乾清宫",
+          "transliteration": "Tàihédiàn · Bǎohédiàn · Qiánqīnggōng · «Зал Высшей гармонии · Зал Сохранения гармонии · Дворец Небесной чистоты»",
+          "startTime": "11:20",
+          "durationMinutes": 90,
+          "category": "SIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d3s6",
+          "orderIndex": 6,
+          "title": "Кофе и передышка в императорских ледниках",
+          "localTitle": "冰窖餐厅",
+          "transliteration": "Bīngjiào cāntīng · «ресторан в ледниках»",
+          "startTime": "13:00",
+          "durationMinutes": 45,
+          "category": "FOOD",
+          "address": null,
+          "tip": "",
+          "tag": "100–200 CNY"
+        },
+        {
+          "key": "d3s7",
+          "orderIndex": 7,
+          "title": "Зал часов, показ механизмов",
+          "localTitle": "钟表馆 · 奉先殿",
+          "transliteration": "Zhōngbiǎoguǎn · Fèngxiāndiàn · «Зал часов, в павильоне Фэнсяньдянь»",
+          "startTime": "13:45",
+          "durationMinutes": 50,
+          "category": "SIGHT",
+          "address": null,
+          "tip": "",
+          "tag": "по вашему билету"
+        },
+        {
+          "key": "d3s8",
+          "orderIndex": 8,
+          "title": "Павильон драгоценностей",
+          "localTitle": "珍宝馆 · 宁寿宫",
+          "transliteration": "Zhēnbǎoguǎn · Níngshòugōng · «Павильон драгоценностей, дворец Ниншоугун»",
+          "startTime": "14:40",
+          "durationMinutes": 90,
+          "category": "SIGHT",
+          "address": null,
+          "tip": "",
+          "tag": "по вашему билету"
+        },
+        {
+          "key": "d3s9",
+          "orderIndex": 9,
+          "title": "Императорский сад и выход на север",
+          "localTitle": "御花园 → 神武门",
+          "transliteration": "Yùhuāyuán → Shénwǔmén · «Императорский сад → Ворота Божественной доблести» (северный выход)",
+          "startTime": "16:20",
+          "durationMinutes": 40,
+          "category": "SIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d3s10",
+          "orderIndex": 10,
+          "title": "Цзиншань и закат",
+          "localTitle": "景山公园 · 万春亭",
+          "transliteration": "Jǐngshān gōngyuán · Wànchūntíng · «парк Цзиншань · беседка Ваньчуньтин»",
+          "startTime": "17:00",
+          "durationMinutes": 90,
+          "category": "SIGHT",
+          "address": {
+            "local": "北京市西城区景山西街44号 景山公园",
+            "display": "Парк Цзиншань, главный вход с юга",
+            "transliteration": "Jǐngshān xī jiē 44 hào Jǐngshān gōngyuán — «Цзиншань Сицзе, 44, парк Цзиншань»",
+            "point": {
+              "lat": 39.924459,
+              "lng": 116.390397
+            }
+          },
+          "tip": "",
+          "tag": "8 CNY на всех"
+        },
+        {
+          "key": "d3s11",
+          "orderIndex": 11,
+          "title": "Старая улочка и озёра",
+          "localTitle": "烟袋斜街 · 什刹海",
+          "transliteration": "Yāndài Xiéjiē · Shíchàhǎi · «Кривая улочка Табачных кисетов · озёра Шичахай»",
+          "startTime": "19:00",
+          "durationMinutes": 60,
+          "category": "TRANSIT",
+          "address": {
+            "local": "北京市西城区烟袋斜街",
+            "display": "Улочка Яньдай Сецзе у озёр Шичахай",
+            "transliteration": "Xīchéng qū Yāndài Xiéjiē — «р-н Сичэн, кривая улочка Яньдай»",
+            "point": {
+              "lat": 39.93765,
+              "lng": 116.388606
+            }
+          },
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d3s12",
+          "orderIndex": 12,
+          "title": "Старопекинский бараний хотпот",
+          "localTitle": "三兄弟北平涮肉",
+          "transliteration": "Sān xiōngdì Běipíng shuànròu · «Три брата, бэйпинский хотпот»",
+          "startTime": "20:00",
+          "durationMinutes": null,
+          "category": "FOOD",
+          "address": {
+            "local": "北京市东城区簋街5号-6 三兄弟北平涮肉",
+            "display": "Хотпот на Гуйцзе",
+            "transliteration": "Guǐjiē 5 hào-6 Sān xiōngdì Běipíng shuànròu — «Гуйцзе, 5-6, Три брата»",
+            "point": {
+              "lat": 39.939606,
+              "lng": 116.423264
+            }
+          },
+          "tip": "",
+          "tag": "400–600 CNY"
+        }
+      ],
+      "forks": [
+        {
+          "key": "d3q1",
+          "question": "Дождь?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Переверните день: сначала крытые 珍宝馆 и 钟表馆 , центральная ось — в просвет между зарядами. Цзиншань в дождь отменяйте совсем: вида не будет, а спуск скользкий.",
+              "localTerms": [
+                "珍宝馆",
+                "钟表馆"
+              ]
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану, Цзиншань к закату — ради него день и построен именно так.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d3s4",
+            "d3s5"
+          ],
+          "categories": [
+            "TICKET",
+            "SIGHT"
+          ]
+        },
+        {
+          "key": "d3q3",
+          "question": "Ноги не идут после вчерашней стены?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Выбрасывайте Цзиншань и хутуны, оставляйте Гугун и ужин. Из музея выходите через 神武门 и берите такси прямо там.",
+              "localTerms": [
+                "神武门"
+              ]
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану: Цзиншань, Яньдай Сецзе, хотпот.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d3s10",
+            "d3s11"
+          ],
+          "categories": [
+            "TRANSIT"
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "title": "Universal",
+      "label": "День 4",
+      "summary": "",
+      "stops": [
+        {
+          "key": "d5s0",
+          "orderIndex": 0,
+          "title": "Выезд из отеля",
+          "localTitle": "滴滴出行 → 环球度假区",
+          "transliteration": "Dīdī chūxíng → Huánqiú dùjiàqū · «Didi → Universal Resort»",
+          "startTime": "08:00",
+          "durationMinutes": null,
+          "category": "TRANSIT",
+          "address": {
+            "local": "北京市通州区 北京环球度假区 主入口",
+            "display": "Universal — главный вход",
+            "transliteration": "Tōngzhōu qū Běijīng Huánqiú dùjiàqū zhǔ rùkǒu — «р-н Тунчжоу, Universal Beijing Resort, главный вход»",
+            "point": {
+              "lat": 39.854838,
+              "lng": 116.677786
+            }
+          },
+          "tip": "",
+          "tag": "100–150 CNY"
+        },
+        {
+          "key": "d5s1",
+          "orderIndex": 1,
+          "title": "CityWalk и досмотр",
+          "localTitle": "城市大道 · 入园口",
+          "transliteration": "Chéngshì Dàdào · rùyuánkǒu · «CityWalk · вход в парк»",
+          "startTime": "09:00",
+          "durationMinutes": 60,
+          "category": "TICKET",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d5s2",
+          "orderIndex": 2,
+          "title": "Мир Гарри Поттера — сразу на открытии",
+          "localTitle": "哈利·波特的魔法世界",
+          "transliteration": "Hālì Bōtè de mófǎ shìjiè · «Волшебный мир Гарри Поттера»",
+          "startTime": "10:00",
+          "durationMinutes": 90,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "Возврат налога оформляют в магазине, а штамп ставят в аэропорту — закладывайте время.",
+          "tag": "топ по очередям"
+        },
+        {
+          "key": "d5s3",
+          "orderIndex": 3,
+          "title": "Jurassic World Isla Nublar",
+          "localTitle": "侏罗纪世界 努布拉岛",
+          "transliteration": "Zhūluójì shìjiè Nǔbùlā dǎo · «Мир Юрского периода, остров Нублар»",
+          "startTime": "11:30",
+          "durationMinutes": 60,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": "топ-3"
+        },
+        {
+          "key": "d5s4",
+          "orderIndex": 4,
+          "title": "Земля Кунг-фу Панды и обед",
+          "localTitle": "功夫熊猫盖世之地",
+          "transliteration": "Gōngfu Xióngmāo Gàishì zhī dì · «Земля величия Кунг-фу Панды»",
+          "startTime": "12:45",
+          "durationMinutes": 90,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": "200–350 CNY"
+        },
+        {
+          "key": "d5s5",
+          "orderIndex": 5,
+          "title": "WaterWorld — каскадёрское шоу",
+          "localTitle": "未来水世界",
+          "transliteration": "Wèilái shuǐ shìjiè · «Водный мир будущего» (WaterWorld)",
+          "startTime": "14:15",
+          "durationMinutes": 40,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d5s6",
+          "orderIndex": 6,
+          "title": "Transformers Metrobase",
+          "localTitle": "变形金刚 基地",
+          "transliteration": "Biànxíng Jīngāng jīdì · «База Трансформеров»",
+          "startTime": "15:15",
+          "durationMinutes": 120,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": "топ-1 и топ-4"
+        },
+        {
+          "key": "d5s7",
+          "orderIndex": 7,
+          "title": "Minion Land",
+          "localTitle": "小黄人乐园",
+          "transliteration": "Xiǎohuángrén lèyuán · «Парк маленьких жёлтых человечков» (Minion Land)",
+          "startTime": "17:15",
+          "durationMinutes": 90,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d5s8",
+          "orderIndex": 8,
+          "title": "Голливуд — магазины и добор",
+          "localTitle": "好莱坞大道",
+          "transliteration": "Hǎoláiwù Dàdào · «Голливудский бульвар»",
+          "startTime": "18:45",
+          "durationMinutes": 60,
+          "category": "SHOPPING",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d5s9",
+          "orderIndex": 9,
+          "title": "Если шоу в этот день идёт",
+          "localTitle": "霍格沃茨城堡 灯光秀",
+          "transliteration": "Huògéwòcí chéngbǎo dēngguāng xiù · «световое шоу на замке Хогвартс»",
+          "startTime": "19:45",
+          "durationMinutes": null,
+          "category": "ACTIVITY",
+          "address": null,
+          "tip": "",
+          "tag": "по расписанию"
+        },
+        {
+          "key": "d5s10",
+          "orderIndex": 10,
+          "title": "CityWalk за воротами",
+          "localTitle": "北京环球城市大道",
+          "transliteration": "Běijīng Huánqiú Chéngshì Dàdào · «CityWalk Universal Beijing»",
+          "startTime": "20:15",
+          "durationMinutes": null,
+          "category": "FOOD",
+          "address": null,
+          "tip": "",
+          "tag": "300–500 CNY"
+        },
+        {
+          "key": "d5s11",
+          "orderIndex": 11,
+          "title": "Метро в отель",
+          "localTitle": "地铁 环球度假区 → 建国门 → 东四十条",
+          "transliteration": "dìtiě · «метро»: Huánqiú dùjiàqū → Jiànguómén → Dōngsìshítiáo",
+          "startTime": "21:30",
+          "durationMinutes": 60,
+          "category": "TRANSIT",
+          "address": null,
+          "tip": "",
+          "tag": "28 CNY на всех"
+        }
+      ],
+      "forks": [
+        {
+          "key": "d5q1",
+          "question": "Гроза или ливень?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Останавливают уличное: горки и шоу под открытым небом, включая 未来水世界 . Крытое работает — Гарри Поттер, Трансформеры, Юрский период, Кунг-фу Панда, Миньоны. Дождевик покупайте в парке, зонт на аттракционах бесполезен.",
+              "localTerms": [
+                "未来水世界"
+              ]
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану, с открытия и против часовой стрелки.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d5s1",
+            "d5s5"
+          ],
+          "categories": [
+            "TICKET",
+            "ACTIVITY"
+          ]
+        },
+        {
+          "key": "d5q2",
+          "question": "Очередь на главный аттракцион больше 90 минут?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Уходите в соседнюю зону и возвращайтесь к 19:00 — за час до закрытия очереди падают вдвое. Если у аттракциона работает одиночная очередь, она экономит больше, чем Express Pass.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "Стойте и не перебегайте: метания между зонами съедают больше времени, чем сама очередь.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d5s2",
+            "d5s3",
+            "d5s6"
+          ],
+          "categories": [
+            "ACTIVITY"
+          ]
+        },
+        {
+          "key": "d5q3",
+          "question": "К 17:00 пройдено меньше половины?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Держитесь четырёх главных из раздела «Что не пропустить», остальное вычёркивайте без сожаления. Express Pass покупают и в течение дня прямо в приложении, но в будни он редко окупается.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану, с ужином на CityWalk после выхода.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d5s7"
+          ],
+          "categories": [
+            "ACTIVITY"
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "title": "Шопинг",
+      "label": "День 5",
+      "summary": "",
+      "stops": [
+        {
+          "key": "d4s0",
+          "orderIndex": 0,
+          "title": "Didi до аутлета",
+          "localTitle": "燕莎奥莱",
+          "transliteration": "Yànshā Àolái · «аутлет Яньша»",
+          "startTime": "09:40",
+          "durationMinutes": 30,
+          "category": "TRANSIT",
+          "address": {
+            "local": "北京市朝阳区东四环南路9号 北京燕莎奥特莱斯",
+            "display": "Аутлет Яньша",
+            "transliteration": "Dōngsìhuán nán lù 9 hào Yànshā Àotèláisī — «Восточное 4-е кольцо юг, 9, Yansha Outlets»",
+            "point": {
+              "lat": 39.87698,
+              "lng": 116.48081
+            }
+          },
+          "tip": "",
+          "tag": "45–60 CNY"
+        },
+        {
+          "key": "d4s1",
+          "orderIndex": 1,
+          "title": "Три корпуса аутлета",
+          "localTitle": "A · B · C 座",
+          "transliteration": "A · B · C zuò · «корпуса A, B, C»",
+          "startTime": "10:00",
+          "durationMinutes": 180,
+          "category": "SHOPPING",
+          "address": null,
+          "tip": "В парк выгоднее приходить к открытию: очереди набираются к полудню.",
+          "tag": "бюджет ваш"
+        },
+        {
+          "key": "d4s2",
+          "orderIndex": 2,
+          "title": "Обед на фудкорте аутлета",
+          "localTitle": "奥莱美食广场",
+          "transliteration": "Àolái měishí guǎngchǎng · «фудкорт аутлета»",
+          "startTime": "13:00",
+          "durationMinutes": 60,
+          "category": "FOOD",
+          "address": null,
+          "tip": "",
+          "tag": "200–350 CNY"
+        },
+        {
+          "key": "d4s3",
+          "orderIndex": 3,
+          "title": "Флагманы и китайские марки",
+          "localTitle": "三里屯太古里",
+          "transliteration": "Sānlǐtún Tàigǔlǐ · «Тайку Ли Саньлитунь»",
+          "startTime": "14:30",
+          "durationMinutes": 150,
+          "category": "SHOPPING",
+          "address": {
+            "local": "北京市朝阳区三里屯路19号 三里屯太古里",
+            "display": "Саньлитунь Тайкули",
+            "transliteration": "Sānlǐtún lù 19 hào Sānlǐtún Tàigǔlǐ — «ул. Саньлитунь, 19, Taikoo Li»",
+            "point": {
+              "lat": 39.933551,
+              "lng": 116.448198
+            }
+          },
+          "tip": "",
+          "tag": "40–55 CNY дорога"
+        },
+        {
+          "key": "d4s4",
+          "orderIndex": 4,
+          "title": "Прогулка и гостинцы",
+          "localTitle": "SOLANA 蓝色港湾",
+          "transliteration": "Lánsè Gǎngwān · «Голубая гавань»",
+          "startTime": "17:15",
+          "durationMinutes": 90,
+          "category": "SHOPPING",
+          "address": {
+            "local": "北京市朝阳区朝阳公园路6号 蓝色港湾",
+            "display": "SOLANA, «Голубая гавань»",
+            "transliteration": "Cháoyáng gōngyuán lù 6 hào Lánsè Gǎngwān — «ул. Чаоян-Гунъюань, 6»",
+            "point": {
+              "lat": 39.947933,
+              "lng": 116.469737
+            }
+          },
+          "tip": "",
+          "tag": "30–40 CNY дорога"
+        },
+        {
+          "key": "d4s5",
+          "orderIndex": 5,
+          "title": "Набережная Лянмахэ",
+          "localTitle": "亮马河",
+          "transliteration": "Liàngmǎhé · «река Лянмахэ»",
+          "startTime": "18:45",
+          "durationMinutes": 60,
+          "category": "TRANSIT",
+          "address": {
+            "local": "北京市朝阳区亮马河国际风情水岸",
+            "display": "Набережная Лянмахэ",
+            "transliteration": "Liàngmǎhé guójì fēngqíng shuǐ'àn — «международная набережная реки Лянмахэ»",
+            "point": {
+              "lat": 39.948257,
+              "lng": 116.456271
+            }
+          },
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d4s6",
+          "orderIndex": 6,
+          "title": "Ужин у воды",
+          "localTitle": "亮马桥 · 好运街",
+          "transliteration": "Liàngmǎqiáo · Hǎoyùnjiē · «мост Лянмацяо · улица Удачи»",
+          "startTime": "20:00",
+          "durationMinutes": null,
+          "category": "FOOD",
+          "address": null,
+          "tip": "",
+          "tag": "400–700 CNY"
+        },
+        {
+          "key": "d4s7",
+          "orderIndex": 7,
+          "title": "В отель, собирать чемоданы",
+          "localTitle": "回酒店 · 收拾行李",
+          "transliteration": "huí jiǔdiàn · shōushi xíngli · «в отель · собрать чемоданы»",
+          "startTime": "21:30",
+          "durationMinutes": 20,
+          "category": "FREE_TIME",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        }
+      ],
+      "forks": [
+        {
+          "key": "d4q1",
+          "question": "Утром дождь?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "AS_PLANNED",
+              "text": "Яньша крытый — начало дня не меняется. А вот Саньлитунь и SOLANA — открытые кварталы под небом: в дождь меняйте их на крытые 合生汇 или 朝阳大悦城 из раздела «Если хочется иначе».",
+              "localTerms": [
+                "合生汇",
+                "朝阳大悦城"
+              ]
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану, с прогулкой по Лянмахэ вечером.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d4s0",
+            "d4s1"
+          ],
+          "categories": [
+            "TRANSIT",
+            "SHOPPING"
+          ]
+        },
+        {
+          "key": "d4q2",
+          "question": "На кассе не оформляют ?",
+          "localQuestion": "退税",
+          "options": [
+            {
+              "key": "да",
+              "kind": "CANCEL",
+              "text": "Без бланка возврата в аэропорту не примут ничего — проверяйте это до оплаты , а не после. Нет бланка — считайте, что купили просто вещь: гоняться за 11 % в четыре утра не стоит.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "Паспорт на кассе, бланк и чек в отдельный конверт, покупки — в ручную кладь.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d4s1",
+            "d4s3"
+          ],
+          "categories": [
+            "SHOPPING",
+            "SHOPPING"
+          ]
+        },
+        {
+          "key": "d4q3",
+          "question": "К 17:00 всё куплено или силы кончились?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "SOLANA и набережная — прогулка, а не покупки: выбрасывайте смело. Лучше собрать чемодан засветло и лечь пораньше, подъём в 01:30.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По плану, ужин у воды на Хаоюньцзе.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d4s4",
+            "d4s5"
+          ],
+          "categories": [
+            "TRANSIT"
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "title": "Вылет",
+      "label": "День 6",
+      "summary": "",
+      "stops": [
+        {
+          "key": "d6s0",
+          "orderIndex": 0,
+          "title": "Подъём и последняя проверка номера",
+          "localTitle": "起床",
+          "transliteration": "qǐchuáng · «подъём»",
+          "startTime": "01:30",
+          "durationMinutes": 30,
+          "category": "FREE_TIME",
+          "address": null,
+          "tip": "Регистрация на международные рейсы закрывается за 45–60 минут до вылета.",
+          "tag": ""
+        },
+        {
+          "key": "d6s2",
+          "orderIndex": 1,
+          "title": "Машина в аэропорт",
+          "localTitle": "大兴机场 · 国际出发",
+          "transliteration": "Dàxīng jīchǎng · guójì chūfā · «Дасин · международные вылеты»",
+          "startTime": "02:30",
+          "durationMinutes": null,
+          "category": "TRANSIT",
+          "address": {
+            "local": "北京大兴国际机场 国际出发层",
+            "display": "Дасин — этаж МЕЖДУНАРОДНЫХ вылетов",
+            "transliteration": "Běijīng Dàxīng guójì jīchǎng guójì chūfā céng — «Дасин, этаж международных вылетов»",
+            "point": {
+              "lat": 39.497342,
+              "lng": 116.412315
+            }
+          },
+          "tip": "",
+          "tag": "280–380 CNY"
+        },
+        {
+          "key": "d6s3",
+          "orderIndex": 2,
+          "title": "Возврат налога, если оформляли",
+          "localTitle": "退税柜台",
+          "transliteration": "tuìshuì guìtái · «стойка возврата налога»",
+          "startTime": "03:35",
+          "durationMinutes": 30,
+          "category": "SHOPPING",
+          "address": null,
+          "tip": "",
+          "tag": "до 11 % назад"
+        },
+        {
+          "key": "d6s4",
+          "orderIndex": 3,
+          "title": "Регистрация и сдача багажа",
+          "localTitle": "值机 · 托运",
+          "transliteration": "zhíjī · tuōyùn · «регистрация · сдача багажа»",
+          "startTime": "04:05",
+          "durationMinutes": 35,
+          "category": "FLIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d6s5",
+          "orderIndex": 4,
+          "title": "Паспортный контроль и досмотр",
+          "localTitle": "边检 · 安检",
+          "transliteration": "biānjiǎn · ānjiǎn · «погранконтроль · досмотр»",
+          "startTime": "04:40",
+          "durationMinutes": 35,
+          "category": "FLIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d6s6",
+          "orderIndex": 5,
+          "title": "Регистрация закрывается",
+          "localTitle": "值机截止",
+          "transliteration": "zhíjī jiézhǐ · «регистрация закрыта»",
+          "startTime": "05:15",
+          "durationMinutes": null,
+          "category": "MEETING",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        },
+        {
+          "key": "d6s7",
+          "orderIndex": 6,
+          "title": "Посадка",
+          "localTitle": "登机",
+          "transliteration": "dēngjī · «посадка»",
+          "startTime": "05:35",
+          "durationMinutes": 30,
+          "category": "FLIGHT",
+          "address": null,
+          "tip": "",
+          "tag": ""
+        }
+      ],
+      "forks": [
+        {
+          "key": "d6q1",
+          "question": "Машина не пришла к 02:30?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "CANCEL",
+              "text": "Ресепшен вызывает такси по телефону — просите сразу, не ждите десять минут «ещё чуть-чуть». Параллельно ставьте заказ в Didi. Крайний срок выезда — 03:00: дорога занимает до 70 минут, и всё, что позже, съедает уже не запас, а регистрацию.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "В Дасин по пустой дороге 55–70 минут.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d6s2"
+          ],
+          "categories": [
+            "TRANSIT"
+          ]
+        },
+        {
+          "key": "d6q2",
+          "question": "Под утро дождь?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Ночная трасса в дождь медленнее на 10–15 минут, и машин у отеля меньше. Сдвиньте выезд на 02:15 — терять всё равно нечего, в аэропорту хотя бы есть кофе.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "По графику.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d6s2"
+          ],
+          "categories": [
+            "TRANSIT"
+          ]
+        },
+        {
+          "key": "d6q3",
+          "question": "Стойка ночью закрыта или очередь?",
+          "localQuestion": "退税",
+          "options": [
+            {
+              "key": "да",
+              "kind": "DETOUR",
+              "text": "Идите на регистрацию. Без отметки таможни возврат всё равно не оформят, а бегать между стойками с чемоданом за 220 юанями в четыре утра — плохой размен.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "Порядок жёсткий: сначала таможня с покупками на руках, потом сдача багажа. Наоборот не работает.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d6s3"
+          ],
+          "categories": [
+            "SHOPPING"
+          ]
+        },
+        {
+          "key": "d6q4",
+          "question": "На досмотре забирают повербанк?",
+          "localQuestion": "",
+          "options": [
+            {
+              "key": "да",
+              "kind": "CANCEL",
+              "text": "Спорить бесполезно: нужна маркировка CCC. Поэтому сертифицированный повербанк проще купить 17-го на шопинге — они стоят копейки и продаются в любом молле.",
+              "localTerms": []
+            },
+            {
+              "key": "нет",
+              "kind": "AS_PLANNED",
+              "text": "Повербанки только в ручную кладь, до 100 Вт·ч.",
+              "localTerms": []
+            }
+          ],
+          "stopKeys": [
+            "d6s5"
+          ],
+          "categories": [
+            "FLIGHT"
+          ]
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "tpl-place-0",
+      "tripId": null,
+      "name": "盛永兴",
+      "localName": "Shengyongxing · Michelin 1★",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区新东路5号 盛永兴",
+        "display": "Шэнъюнсин, утка со звездой Michelin",
+        "transliteration": "Cháoyáng qū Xīndōng lù 5 hào Shèngyǒngxīng — «р-н Чаоян, ул. Синьдунлу, 5»"
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-1",
+      "tripId": null,
+      "name": "四季民福",
+      "localName": "Siji Minfu",
+      "transliteration": "",
+      "address": {
+        "local": "北京市东城区灯市口西街32号 四季民福",
+        "display": "Сыцзи Миньфу, утка с видом на Гугун",
+        "transliteration": "Dēngshìkǒu xī jiē 32 hào Sìjì Mínfú — «Дэншикоу Сицзе, 32»",
+        "point": {
+          "lat": 39.91699,
+          "lng": 116.402636
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-2",
+      "tripId": null,
+      "name": "Didi до отеля",
+      "localName": "滴滴出行 · 快车",
+      "transliteration": "",
+      "address": {
+        "local": "大兴机场 到达层 网约车上车点",
+        "display": "Покажите водителю / вбейте в Didi",
+        "transliteration": "Dàxīng jīchǎng · dàodá céng · wǎngyuēchē shàngchē diǎn — «Дасин, этаж прилёта, точка посадки такси по приложению»",
+        "point": {
+          "lat": 39.497342,
+          "lng": 116.412315
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-3",
+      "tripId": null,
+      "name": "Кофе и завтрак — главная точка утра",
+      "localName": "星巴克 工体北路店",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区工体北路13号 世茂百货F1层E103 星巴克",
+        "display": "Starbucks с 7:00, первый этаж «Шимао»",
+        "transliteration": "Gōngtǐ běilù 13 hào, Shìmào bǎihuò F1 E103 · 800 м от отеля, 11 мин пешком · 39.9351, 116.4494",
+        "point": {
+          "lat": 39.9351,
+          "lng": 116.4494
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-4",
+      "tripId": null,
+      "name": "Саньлитунь и большой Uniqlo",
+      "localName": "三里屯太古里 · 优衣库",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区三里屯路19号 三里屯太古里",
+        "display": "Саньлитунь Тайкули",
+        "transliteration": "Sānlǐtún lù 19 hào Sānlǐtún Tàigǔlǐ · магазины с 10:00 до 22:00 · 39.9359, 116.4554",
+        "point": {
+          "lat": 39.9359,
+          "lng": 116.4554
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-5",
+      "tripId": null,
+      "name": "Обед и кондиционер, 550 м от Uniqlo",
+      "localName": "世茂工三",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区工体北路13号院3号楼 世茂工三",
+        "display": "ТЦ «Шимао Гунсань» на Гунтибэйлу",
+        "transliteration": "Gōngtǐ běilù 13 hào yuàn 3 hào lóu · 10:00–22:00 · 39.9342, 116.4494",
+        "point": {
+          "lat": 39.9342,
+          "lng": 116.4494
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-6",
+      "tripId": null,
+      "name": "Ужин на улице призраков",
+      "localName": "簋街 · 很久以前羊肉串",
+      "transliteration": "",
+      "address": {
+        "local": "北京市东城区北新桥头条 很久以前羊肉串",
+        "display": "Шашлычная «Давным-давно» на Гуйцзе",
+        "transliteration": "Běixīnqiáo tóutiáo Hěnjiǔ yǐqián yángròuchuàn · 39.9413, 116.4206 · до 22:00",
+        "point": {
+          "lat": 39.9413,
+          "lng": 116.4206
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-7",
+      "tripId": null,
+      "name": "Didi к стене, обычная машина",
+      "localName": "滴滴出行 · 快车",
+      "transliteration": "",
+      "address": {
+        "local": "北京市怀柔区渤海镇慕田峪路 慕田峪长城景区售票处",
+        "display": "Стена Мутяньюй — касса и визит-центр",
+        "transliteration": "Huáiróu qū Bóhǎi zhèn Mùtiányù lù · 40.4327, 116.5640 · индекс 101406",
+        "point": {
+          "lat": 40.4327,
+          "lng": 116.564
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-8",
+      "tripId": null,
+      "name": "Метро, линия 2 и линия 1",
+      "localName": "东四十条 → 建国门 → 王府井",
+      "transliteration": "",
+      "address": {
+        "local": "王府井地铁站",
+        "display": "Станция метро Ванфуцзин",
+        "transliteration": "Wángfǔjǐng dìtiě zhàn — «станция метро Ванфуцзин», линия 1",
+        "point": {
+          "lat": 39.90695,
+          "lng": 116.405279
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-9",
+      "tripId": null,
+      "name": "Парк на месте стены Императорского города",
+      "localName": "皇城根遗址公园",
+      "transliteration": "",
+      "address": {
+        "local": "北京市东城区南河沿大街 皇城根遗址公园",
+        "display": "Парк на месте стены Императорского города",
+        "transliteration": "Nánhéyán dàjiē Huángchénggēn yízhǐ gōngyuán — «ул. Наньхэянь, парк Хуанчэнгэнь»",
+        "point": {
+          "lat": 39.927423,
+          "lng": 116.400103
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-10",
+      "tripId": null,
+      "name": "Ранний обед перед входом",
+      "localName": "新疆拉条",
+      "transliteration": "",
+      "address": {
+        "local": "北京市东城区王府井西街7号 新疆拉条",
+        "display": "Синьцзянская лапша у Ванфуцзина",
+        "transliteration": "Wángfǔjǐng xī jiē 7 hào Xīnjiāng lātiáo — «Ванфуцзин Сицзе, 7»",
+        "point": {
+          "lat": 39.90695,
+          "lng": 116.405279
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-11",
+      "tripId": null,
+      "name": "Цзиншань и закат",
+      "localName": "景山公园 · 万春亭",
+      "transliteration": "",
+      "address": {
+        "local": "北京市西城区景山西街44号 景山公园",
+        "display": "Парк Цзиншань, главный вход с юга",
+        "transliteration": "Jǐngshān xī jiē 44 hào Jǐngshān gōngyuán — «Цзиншань Сицзе, 44, парк Цзиншань»",
+        "point": {
+          "lat": 39.924459,
+          "lng": 116.390397
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-12",
+      "tripId": null,
+      "name": "Старая улочка и озёра",
+      "localName": "烟袋斜街 · 什刹海",
+      "transliteration": "",
+      "address": {
+        "local": "北京市西城区烟袋斜街",
+        "display": "Улочка Яньдай Сецзе у озёр Шичахай",
+        "transliteration": "Xīchéng qū Yāndài Xiéjiē — «р-н Сичэн, кривая улочка Яньдай»",
+        "point": {
+          "lat": 39.93765,
+          "lng": 116.388606
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-13",
+      "tripId": null,
+      "name": "Старопекинский бараний хотпот",
+      "localName": "三兄弟北平涮肉",
+      "transliteration": "",
+      "address": {
+        "local": "北京市东城区簋街5号-6 三兄弟北平涮肉",
+        "display": "Хотпот на Гуйцзе",
+        "transliteration": "Guǐjiē 5 hào-6 Sān xiōngdì Běipíng shuànròu — «Гуйцзе, 5-6, Три брата»",
+        "point": {
+          "lat": 39.939606,
+          "lng": 116.423264
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-14",
+      "tripId": null,
+      "name": "Выезд из отеля",
+      "localName": "滴滴出行 → 环球度假区",
+      "transliteration": "",
+      "address": {
+        "local": "北京市通州区 北京环球度假区 主入口",
+        "display": "Universal — главный вход",
+        "transliteration": "Tōngzhōu qū Běijīng Huánqiú dùjiàqū zhǔ rùkǒu — «р-н Тунчжоу, Universal Beijing Resort, главный вход»",
+        "point": {
+          "lat": 39.854838,
+          "lng": 116.677786
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-15",
+      "tripId": null,
+      "name": "Didi до аутлета",
+      "localName": "燕莎奥莱",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区东四环南路9号 北京燕莎奥特莱斯",
+        "display": "Аутлет Яньша",
+        "transliteration": "Dōngsìhuán nán lù 9 hào Yànshā Àotèláisī — «Восточное 4-е кольцо юг, 9, Yansha Outlets»",
+        "point": {
+          "lat": 39.87698,
+          "lng": 116.48081
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-16",
+      "tripId": null,
+      "name": "Прогулка и гостинцы",
+      "localName": "SOLANA 蓝色港湾",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区朝阳公园路6号 蓝色港湾",
+        "display": "SOLANA, «Голубая гавань»",
+        "transliteration": "Cháoyáng gōngyuán lù 6 hào Lánsè Gǎngwān — «ул. Чаоян-Гунъюань, 6»",
+        "point": {
+          "lat": 39.947933,
+          "lng": 116.469737
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-17",
+      "tripId": null,
+      "name": "Набережная Лянмахэ",
+      "localName": "亮马河",
+      "transliteration": "",
+      "address": {
+        "local": "北京市朝阳区亮马河国际风情水岸",
+        "display": "Набережная Лянмахэ",
+        "transliteration": "Liàngmǎhé guójì fēngqíng shuǐ'àn — «международная набережная реки Лянмахэ»",
+        "point": {
+          "lat": 39.948257,
+          "lng": 116.456271
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    },
+    {
+      "id": "tpl-place-18",
+      "tripId": null,
+      "name": "Машина в аэропорт",
+      "localName": "大兴机场 · 国际出发",
+      "transliteration": "",
+      "address": {
+        "local": "北京大兴国际机场 国际出发层",
+        "display": "Дасин — этаж МЕЖДУНАРОДНЫХ вылетов",
+        "transliteration": "Běijīng Dàxīng guójì jīchǎng guójì chūfā céng — «Дасин, этаж международных вылетов»",
+        "point": {
+          "lat": 39.497342,
+          "lng": 116.412315
+        }
+      },
+      "kind": "SIGHT",
+      "note": "",
+      "source": "PLAN",
+      "visited": false
+    }
+  ],
+  "phraseGroups": [
+    {
+      "key": "reception",
+      "title": "На ресепшене",
+      "localTitle": "前台",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-0-2",
+          "source": "Оплачу через Alipay",
+          "target": "我用支付宝付房费",
+          "transliteration": "Wǒ yòng Zhīfùbǎo fù fángfèi"
+        },
+        {
+          "id": "tpl-phrase-0-3",
+          "source": "Хочу оплатить наличными",
+          "target": "我想用现金付房费",
+          "transliteration": "Wǒ xiǎng yòng xiànjīn fù fángfèi"
+        },
+        {
+          "id": "tpl-phrase-0-5",
+          "source": "Можно заселиться пораньше?",
+          "target": "可以提前入住吗？",
+          "transliteration": "Kěyǐ tíqián rùzhù ma?"
+        },
+        {
+          "id": "tpl-phrase-0-6",
+          "source": "Есть убранный свободный номер?",
+          "target": "现在有打扫好的空房吗？",
+          "transliteration": "Xiànzài yǒu dǎsǎo hǎo de kōngfáng ma?"
+        },
+        {
+          "id": "tpl-phrase-0-7",
+          "source": "Позвоните, когда номер будет готов",
+          "target": "房间准备好了请给我打电话",
+          "transliteration": "Fángjiān zhǔnbèi hǎo le qǐng gěi wǒ dǎ diànhuà"
+        },
+        {
+          "id": "tpl-phrase-0-8",
+          "source": "Можно докупить завтрак?",
+          "target": "可以加买早餐吗？",
+          "transliteration": "Kěyǐ jiā mǎi zǎocān ma?"
+        },
+        {
+          "id": "tpl-phrase-0-9",
+          "source": "Можно оставить багаж?",
+          "target": "可以寄存行李吗？",
+          "transliteration": "Kěyǐ jìcún xínglǐ ma?"
+        },
+        {
+          "id": "tpl-phrase-0-10",
+          "source": "Заберём после двух часов дня",
+          "target": "我们下午两点以后来取",
+          "transliteration": "Wǒmen xiàwǔ liǎng diǎn yǐhòu lái qǔ"
+        },
+        {
+          "id": "tpl-phrase-0-11",
+          "source": "Хотим забрать багаж",
+          "target": "我们要取行李",
+          "transliteration": "Wǒmen yào qǔ xínglǐ"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "driver",
+      "title": "Водитель и Didi",
+      "localTitle": "滴滴 · 司机",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-1-0",
+          "source": "Вы водитель по заказу Didi?",
+          "target": "您是滴滴的司机吗？",
+          "transliteration": "Nín shì Dīdī de sījī ma?"
+        },
+        {
+          "id": "tpl-phrase-1-2",
+          "source": "Откройте багажник, пожалуйста",
+          "target": "请开后备箱",
+          "transliteration": "Qǐng kāi hòubèixiāng"
+        },
+        {
+          "id": "tpl-phrase-1-3",
+          "source": "Отвезите по этому адресу",
+          "target": "请送我们去这个地址",
+          "transliteration": "Qǐng sòng wǒmen qù zhège dìzhǐ"
+        },
+        {
+          "id": "tpl-phrase-1-4",
+          "source": "Оплачу через Alipay",
+          "target": "我用支付宝付",
+          "transliteration": "Wǒ yòng Zhīfùbǎo fù"
+        },
+        {
+          "id": "tpl-phrase-1-5",
+          "source": "Пожалуйста, по счётчику",
+          "target": "请打表",
+          "transliteration": "Qǐng dǎ biǎo"
+        },
+        {
+          "id": "tpl-phrase-1-6",
+          "source": "Остановите здесь, пожалуйста",
+          "target": "请在这儿停车",
+          "transliteration": "Qǐng zài zhèr tíng chē"
+        },
+        {
+          "id": "tpl-phrase-1-7",
+          "source": "Подождите пять минут",
+          "target": "请等五分钟",
+          "transliteration": "Qǐng děng wǔ fēnzhōng"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "coffee",
+      "title": "В кофейне",
+      "localTitle": "咖啡店",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-2-0",
+          "source": "Один американо, большой",
+          "target": "一杯美式，超大杯",
+          "transliteration": "Yì bēi měishì, chāodàbēi"
+        },
+        {
+          "id": "tpl-phrase-2-1",
+          "source": "Один латте, горячий",
+          "target": "一杯拿铁，热的",
+          "transliteration": "Yì bēi nátiě, rè de"
+        },
+        {
+          "id": "tpl-phrase-2-2",
+          "source": "Капучино, без сахара",
+          "target": "卡布奇诺，不加糖",
+          "transliteration": "Kǎbùqínuò, bù jiā táng"
+        },
+        {
+          "id": "tpl-phrase-2-3",
+          "source": "Здесь пить",
+          "target": "在这儿喝",
+          "transliteration": "Zài zhèr hē"
+        },
+        {
+          "id": "tpl-phrase-2-4",
+          "source": "С собой",
+          "target": "带走",
+          "transliteration": "Dài zǒu"
+        },
+        {
+          "id": "tpl-phrase-2-5",
+          "source": "На овсяном молоке",
+          "target": "换燕麦奶",
+          "transliteration": "Huàn yànmài nǎi"
+        },
+        {
+          "id": "tpl-phrase-2-6",
+          "source": "Что есть на завтрак?",
+          "target": "早餐有什么？",
+          "transliteration": "Zǎocān yǒu shénme?"
+        },
+        {
+          "id": "tpl-phrase-2-7",
+          "source": "Вот это, пожалуйста",
+          "target": "要这个",
+          "transliteration": "Yào zhège"
+        },
+        {
+          "id": "tpl-phrase-2-8",
+          "source": "Есть розетка?",
+          "target": "有插座吗？",
+          "transliteration": "Yǒu chāzuò ma?"
+        },
+        {
+          "id": "tpl-phrase-2-9",
+          "source": "Где туалет?",
+          "target": "洗手间在哪儿？",
+          "transliteration": "Xǐshǒujiān zài nǎr?"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "food1",
+      "title": "В ресторане",
+      "localTitle": "餐厅",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-3-0",
+          "source": "Большой латте, горячий",
+          "target": "一杯大杯拿铁，热的",
+          "transliteration": "Yì bēi dà bēi nátiě, rè de"
+        },
+        {
+          "id": "tpl-phrase-3-1",
+          "source": "Четыре кофе",
+          "target": "四杯咖啡",
+          "transliteration": "Sì bēi kāfēi"
+        },
+        {
+          "id": "tpl-phrase-3-2",
+          "source": "С собой",
+          "target": "带走",
+          "transliteration": "Dài zǒu"
+        },
+        {
+          "id": "tpl-phrase-3-3",
+          "source": "Здесь, за столиком",
+          "target": "在这儿喝",
+          "transliteration": "Zài zhèr hē"
+        },
+        {
+          "id": "tpl-phrase-3-4",
+          "source": "Есть завтрак-сет?",
+          "target": "有早餐套餐吗？",
+          "transliteration": "Yǒu zǎocān tàocān ma?"
+        },
+        {
+          "id": "tpl-phrase-3-6",
+          "source": "Есть меню с картинками?",
+          "target": "有图片菜单吗？",
+          "transliteration": "Yǒu túpiàn càidān ma?"
+        },
+        {
+          "id": "tpl-phrase-3-7",
+          "source": "Не остро, пожалуйста",
+          "target": "不要辣",
+          "transliteration": "Bú yào là"
+        },
+        {
+          "id": "tpl-phrase-3-8",
+          "source": "Шашлык из баранины, двадцать штук",
+          "target": "羊肉串二十串",
+          "transliteration": "Yángròu chuàn èrshí chuàn"
+        },
+        {
+          "id": "tpl-phrase-3-9",
+          "source": "Четыре пива",
+          "target": "四瓶啤酒",
+          "transliteration": "Sì píng píjiǔ"
+        },
+        {
+          "id": "tpl-phrase-3-10",
+          "source": "Это что такое?",
+          "target": "这是什么？",
+          "transliteration": "Zhè shì shénme?"
+        },
+        {
+          "id": "tpl-phrase-3-11",
+          "source": "Принимаете Alipay?",
+          "target": "收支付宝吗？",
+          "transliteration": "Shōu Zhīfùbǎo ma?"
+        },
+        {
+          "id": "tpl-phrase-3-12",
+          "source": "Счёт, пожалуйста",
+          "target": "买单",
+          "transliteration": "Mǎidān"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "tickets",
+      "title": "Касса и подъёмник",
+      "localTitle": "售票处",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-4-1",
+          "source": "Вот наши паспорта, отсканируйте",
+          "target": "这是护照，请扫描",
+          "transliteration": "Zhè shì hùzhào, qǐng sǎomiáo"
+        },
+        {
+          "id": "tpl-phrase-4-2",
+          "source": "Четыре билета: наверх креслом, вниз жёлобом",
+          "target": "四张索道上、滑道下的票",
+          "transliteration": "Sì zhāng suǒdào shàng, huádào xià de piào"
+        },
+        {
+          "id": "tpl-phrase-4-3",
+          "source": "Где касса канатки?",
+          "target": "索道售票处在哪儿？",
+          "transliteration": "Suǒdào shòupiàochù zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-4-4",
+          "source": "Вход и шаттл уже оплачены онлайн",
+          "target": "门票和摆渡车我们网上买好了",
+          "transliteration": "Ménpiào hé bǎidùchē wǒmen wǎngshàng mǎi hǎo le"
+        },
+        {
+          "id": "tpl-phrase-4-5",
+          "source": "Кресельная канатка и тобогган",
+          "target": "索道加滑道",
+          "transliteration": "Suǒdào jiā huádào"
+        },
+        {
+          "id": "tpl-phrase-4-6",
+          "source": "Вот наши паспорта",
+          "target": "这是我们的护照",
+          "transliteration": "Zhè shì wǒmen de hùzhào"
+        },
+        {
+          "id": "tpl-phrase-4-7",
+          "source": "Оплачу через Alipay",
+          "target": "我用支付宝付",
+          "transliteration": "Wǒ yòng Zhīfùbǎo fù"
+        },
+        {
+          "id": "tpl-phrase-4-8",
+          "source": "Где посадка на канатку?",
+          "target": "索道在哪儿上？",
+          "transliteration": "Suǒdào zài nǎr shàng?"
+        },
+        {
+          "id": "tpl-phrase-4-9",
+          "source": "До какой башни сейчас открыто?",
+          "target": "现在开放到几号敌楼？",
+          "transliteration": "Xiànzài kāifàng dào jǐ hào dílóu?"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "wall",
+      "title": "На стене",
+      "localTitle": "在长城上",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-5-0",
+          "source": "Где двадцатая башня?",
+          "target": "20号敌楼在哪儿？",
+          "transliteration": "Èrshí hào dílóu zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-5-1",
+          "source": "Где станция тобоггана?",
+          "target": "滑道在哪儿？",
+          "transliteration": "Huádào zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-5-2",
+          "source": "Тобогган сегодня работает?",
+          "target": "今天滑道开吗？",
+          "transliteration": "Jīntiān huádào kāi ma?"
+        },
+        {
+          "id": "tpl-phrase-5-3",
+          "source": "Во сколько последний спуск?",
+          "target": "最后一班几点？",
+          "transliteration": "Zuìhòu yì bān jǐ diǎn?"
+        },
+        {
+          "id": "tpl-phrase-5-4",
+          "source": "Сфотографируйте нас, пожалуйста",
+          "target": "请帮我们拍张照",
+          "transliteration": "Qǐng bāng wǒmen pāi zhāng zhào"
+        },
+        {
+          "id": "tpl-phrase-5-5",
+          "source": "Где вода и туалет?",
+          "target": "哪里有水和厕所？",
+          "transliteration": "Nǎlǐ yǒu shuǐ hé cèsuǒ?"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "food2",
+      "title": "За столом · утка",
+      "localTitle": "餐厅 · 烤鸭",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-6-0",
+          "source": "Одну утку целиком",
+          "target": "一只烤鸭",
+          "transliteration": "Yì zhī kǎoyā"
+        },
+        {
+          "id": "tpl-phrase-6-2",
+          "source": "С блинчиками и соусом",
+          "target": "要饼和酱",
+          "transliteration": "Yào bǐng hé jiàng"
+        },
+        {
+          "id": "tpl-phrase-6-3",
+          "source": "Радужная форель на гриле",
+          "target": "烤虹鳟鱼",
+          "transliteration": "Kǎo hóngzūnyú"
+        },
+        {
+          "id": "tpl-phrase-6-4",
+          "source": "Не остро, пожалуйста",
+          "target": "不要辣",
+          "transliteration": "Bú yào là"
+        },
+        {
+          "id": "tpl-phrase-6-5",
+          "source": "Принимаете Alipay?",
+          "target": "收支付宝吗？",
+          "transliteration": "Shōu Zhīfùbǎo ma?"
+        },
+        {
+          "id": "tpl-phrase-6-6",
+          "source": "Счёт, пожалуйста",
+          "target": "买单",
+          "transliteration": "Mǎidān"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "gugong",
+      "title": "В музее",
+      "localTitle": "故宫",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-7-1",
+          "source": "Вот наши паспорта",
+          "target": "这是我们的护照",
+          "transliteration": "Zhè shì wǒmen de hùzhào"
+        },
+        {
+          "id": "tpl-phrase-7-2",
+          "source": "Где вход через Меридианные ворота?",
+          "target": "午门入口在哪儿？",
+          "transliteration": "Wǔmén rùkǒu zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-7-3",
+          "source": "Где Павильон драгоценностей?",
+          "target": "珍宝馆在哪儿？",
+          "transliteration": "Zhēnbǎoguǎn zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-7-4",
+          "source": "Где Зал часов?",
+          "target": "钟表馆在哪儿？",
+          "transliteration": "Zhōngbiǎoguǎn zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-7-5",
+          "source": "Когда показывают часы?",
+          "target": "钟表表演几点？",
+          "transliteration": "Zhōngbiǎo biǎoyǎn jǐ diǎn?"
+        },
+        {
+          "id": "tpl-phrase-7-6",
+          "source": "Где выход на север?",
+          "target": "神武门怎么走？",
+          "transliteration": "Shénwǔmén zěnme zǒu?"
+        },
+        {
+          "id": "tpl-phrase-7-7",
+          "source": "Есть аудиогид на русском?",
+          "target": "有俄语讲解器吗？",
+          "transliteration": "Yǒu Éyǔ jiǎngjiěqì ma?"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "airport",
+      "title": "Выселение и аэропорт",
+      "localTitle": "退房 · 机场",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-8-0",
+          "source": "Мы выселяемся",
+          "target": "我们要退房",
+          "transliteration": "Wǒmen yào tuìfáng"
+        },
+        {
+          "id": "tpl-phrase-8-1",
+          "source": "Счёт мы закрыли вчера вечером",
+          "target": "我们昨晚已经结账了",
+          "transliteration": "Wǒmen zuówǎn yǐjīng jiézhàng le"
+        },
+        {
+          "id": "tpl-phrase-8-2",
+          "source": "Дайте распечатку счёта",
+          "target": "请给我账单",
+          "transliteration": "Qǐng gěi wǒ zhàngdān"
+        },
+        {
+          "id": "tpl-phrase-8-3",
+          "source": "Закажите машину на половину третьего ночи",
+          "target": "请帮我们订凌晨两点半的车",
+          "transliteration": "Qǐng bāng wǒmen dìng língchén liǎng diǎn bàn de chē"
+        },
+        {
+          "id": "tpl-phrase-8-4",
+          "source": "В Дасин, международные вылеты",
+          "target": "去大兴机场，国际出发",
+          "transliteration": "Qù Dàxīng jīchǎng, guójì chūfā"
+        },
+        {
+          "id": "tpl-phrase-8-6",
+          "source": "Где оформляют возврат налога?",
+          "target": "退税柜台在哪儿？",
+          "transliteration": "Tuìshuì guìtái zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-8-7",
+          "source": "Один чемодан в багаж",
+          "target": "托运一件行李",
+          "transliteration": "Tuōyùn yí jiàn xíngli"
+        },
+        {
+          "id": "tpl-phrase-8-8",
+          "source": "Это ручная кладь",
+          "target": "这是手提行李",
+          "transliteration": "Zhè shì shǒutí xíngli"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "park",
+      "title": "В парке",
+      "localTitle": "环球影城",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-9-1",
+          "source": "Сколько сейчас очередь?",
+          "target": "现在排队多久？",
+          "transliteration": "Xiànzài páiduì duōjiǔ?"
+        },
+        {
+          "id": "tpl-phrase-9-2",
+          "source": "Где замок Хогвартс?",
+          "target": "霍格沃茨城堡在哪儿？",
+          "transliteration": "Huògéwòcí chéngbǎo zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-9-3",
+          "source": "Во сколько начинается шоу?",
+          "target": "表演几点开始？",
+          "transliteration": "Biǎoyǎn jǐ diǎn kāishǐ?"
+        },
+        {
+          "id": "tpl-phrase-9-4",
+          "source": "Где камеры хранения?",
+          "target": "储物柜在哪儿？",
+          "transliteration": "Chǔwùguì zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-9-5",
+          "source": "Одно сливочное пиво",
+          "target": "一杯黄油啤酒",
+          "transliteration": "Yì bēi huángyóu píjiǔ"
+        },
+        {
+          "id": "tpl-phrase-9-6",
+          "source": "Где выход к метро?",
+          "target": "地铁站怎么走？",
+          "transliteration": "Dìtiě zhàn zěnme zǒu?"
+        },
+        {
+          "id": "tpl-phrase-9-7",
+          "source": "Какой рост нужен для этого аттракциона?",
+          "target": "这个项目身高要求多少？",
+          "transliteration": "Zhège xiàngmù shēngāo yāoqiú duōshao?"
+        },
+        {
+          "id": "tpl-phrase-9-8",
+          "source": "Во сколько закрывается парк?",
+          "target": "乐园几点关门？",
+          "transliteration": "Lèyuán jǐ diǎn guānmén?"
+        },
+        {
+          "id": "tpl-phrase-9-9",
+          "source": "Сфотографируйте нас, пожалуйста",
+          "target": "请帮我们拍张照",
+          "transliteration": "Qǐng bāng wǒmen pāi zhāng zhào"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "shopping",
+      "title": "В магазине",
+      "localTitle": "购物",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-10-0",
+          "source": "Мой размер сорок третий",
+          "target": "我穿43码",
+          "transliteration": "Wǒ chuān sìshísān mǎ"
+        },
+        {
+          "id": "tpl-phrase-10-1",
+          "source": "Есть на размер больше?",
+          "target": "有大一号的吗？",
+          "transliteration": "Yǒu dà yí hào de ma?"
+        },
+        {
+          "id": "tpl-phrase-10-2",
+          "source": "Есть другой цвет?",
+          "target": "有别的颜色吗？",
+          "transliteration": "Yǒu bié de yánsè ma?"
+        },
+        {
+          "id": "tpl-phrase-10-3",
+          "source": "Можно примерить?",
+          "target": "可以试穿吗？",
+          "transliteration": "Kěyǐ shìchuān ma?"
+        },
+        {
+          "id": "tpl-phrase-10-4",
+          "source": "Где примерочная?",
+          "target": "试衣间在哪儿？",
+          "transliteration": "Shìyījiān zài nǎr?"
+        },
+        {
+          "id": "tpl-phrase-10-5",
+          "source": "Сколько стоит?",
+          "target": "多少钱？",
+          "transliteration": "Duōshao qián?"
+        },
+        {
+          "id": "tpl-phrase-10-6",
+          "source": "Скидка есть?",
+          "target": "有折扣吗？",
+          "transliteration": "Yǒu zhékòu ma?"
+        },
+        {
+          "id": "tpl-phrase-10-7",
+          "source": "Это оригинал?",
+          "target": "这是正品吗？",
+          "transliteration": "Zhè shì zhèngpǐn ma?"
+        },
+        {
+          "id": "tpl-phrase-10-8",
+          "source": "Можно оформить возврат налога?",
+          "target": "可以办退税吗？",
+          "transliteration": "Kěyǐ bàn tuìshuì ma?"
+        },
+        {
+          "id": "tpl-phrase-10-9",
+          "source": "Дайте чек, пожалуйста",
+          "target": "请给我小票",
+          "transliteration": "Qǐng gěi wǒ xiǎopiào"
+        },
+        {
+          "id": "tpl-phrase-10-10",
+          "source": "Оплачу через Alipay",
+          "target": "我用支付宝付",
+          "transliteration": "Wǒ yòng Zhīfùbǎo fù"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "hotpot",
+      "title": "За хотпотом",
+      "localTitle": "涮肉",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-11-1",
+          "source": "Один котёл, бульон без остроты",
+          "target": "一个锅，清汤",
+          "transliteration": "Yí gè guō, qīngtāng"
+        },
+        {
+          "id": "tpl-phrase-11-2",
+          "source": "Баранина, нарезанная вручную",
+          "target": "手切羊肉",
+          "transliteration": "Shǒu qiē yángròu"
+        },
+        {
+          "id": "tpl-phrase-11-3",
+          "source": "Кунжутный соус",
+          "target": "麻酱",
+          "transliteration": "Májiàng"
+        },
+        {
+          "id": "tpl-phrase-11-4",
+          "source": "Лепёшка кунжутная",
+          "target": "芝麻烧饼",
+          "transliteration": "Zhīma shāobing"
+        },
+        {
+          "id": "tpl-phrase-11-5",
+          "source": "Капуста и тофу",
+          "target": "白菜和豆腐",
+          "transliteration": "Báicài hé dòufu"
+        },
+        {
+          "id": "tpl-phrase-11-6",
+          "source": "Ещё бульона, пожалуйста",
+          "target": "请加汤",
+          "transliteration": "Qǐng jiā tāng"
+        },
+        {
+          "id": "tpl-phrase-11-7",
+          "source": "Счёт, пожалуйста",
+          "target": "买单",
+          "transliteration": "Mǎidān"
+        }
+      ],
+      "builtin": true
+    },
+    {
+      "key": "gloss",
+      "title": "Иероглифы вокруг",
+      "localTitle": "常见汉字",
+      "sourceLocale": "ru-RU",
+      "targetLocale": "zh-CN",
+      "categories": [],
+      "phrases": [
+        {
+          "id": "tpl-phrase-12-1",
+          "source": "Ранний заезд. Зависит от 房态 fángtài — есть ли убранный свободный номер",
+          "target": "提前入住",
+          "transliteration": "tíqián rùzhù"
+        },
+        {
+          "id": "tpl-phrase-12-2",
+          "source": "Выселение, check-out",
+          "target": "退房",
+          "transliteration": "tuìfáng"
+        },
+        {
+          "id": "tpl-phrase-12-3",
+          "source": "Такси по приложению. Указатели в аэропорту и на парковках",
+          "target": "网约车",
+          "transliteration": "wǎngyuēchē"
+        },
+        {
+          "id": "tpl-phrase-12-4",
+          "source": "Обычный тариф Didi, четыре места",
+          "target": "快车",
+          "transliteration": "kuàichē"
+        },
+        {
+          "id": "tpl-phrase-12-5",
+          "source": "Шестиместная машина в Didi",
+          "target": "六座",
+          "transliteration": "liù zuò"
+        },
+        {
+          "id": "tpl-phrase-12-6",
+          "source": "Транспортный QR в Alipay — им проходят метро",
+          "target": "乘车码",
+          "transliteration": "chéngchēmǎ"
+        },
+        {
+          "id": "tpl-phrase-12-7",
+          "source": "Входной билет",
+          "target": "门票",
+          "transliteration": "ménpiào"
+        },
+        {
+          "id": "tpl-phrase-12-9",
+          "source": "Шаттл внутри достопримечательности",
+          "target": "摆渡车",
+          "transliteration": "bǎidùchē"
+        },
+        {
+          "id": "tpl-phrase-12-10",
+          "source": "Открытая кресельная канатка",
+          "target": "索道",
+          "transliteration": "suǒdào"
+        },
+        {
+          "id": "tpl-phrase-12-11",
+          "source": "Закрытая кабинка-гондола",
+          "target": "缆车",
+          "transliteration": "lǎnchē"
+        },
+        {
+          "id": "tpl-phrase-12-12",
+          "source": "Тобогган, спуск в жёлобе",
+          "target": "滑道",
+          "transliteration": "huádào"
+        },
+        {
+          "id": "tpl-phrase-12-13",
+          "source": "Сторожевая башня на стене. «6号敌楼» = башня № 6",
+          "target": "敌楼",
+          "transliteration": "dílóu"
+        },
+        {
+          "id": "tpl-phrase-12-14",
+          "source": "Express Pass в Universal",
+          "target": "优速通",
+          "transliteration": "yōusùtōng"
+        },
+        {
+          "id": "tpl-phrase-12-15",
+          "source": "Очередь. «排队30分钟» = ждать полчаса",
+          "target": "排队",
+          "transliteration": "páiduì"
+        },
+        {
+          "id": "tpl-phrase-12-16",
+          "source": "Рост. Ограничения на аттракционах пишут так: 身高≥122cm",
+          "target": "身高",
+          "transliteration": "shēngāo"
+        },
+        {
+          "id": "tpl-phrase-12-17",
+          "source": "Возврат налога. Ищите эту табличку на кассе",
+          "target": "退税",
+          "transliteration": "tuìshuì"
+        },
+        {
+          "id": "tpl-phrase-12-18",
+          "source": "Официальный счёт-фактура, нужен для возврата налога",
+          "target": "发票",
+          "transliteration": "fāpiào"
+        },
+        {
+          "id": "tpl-phrase-12-19",
+          "source": "«Счёт, пожалуйста»",
+          "target": "买单",
+          "transliteration": "mǎidān"
+        },
+        {
+          "id": "tpl-phrase-12-20",
+          "source": "Размеры стакана. Ловушка: 中杯 «средний» — это самый маленький, 大杯 — средний, 超大杯 — большой",
+          "target": "中杯 · 大杯",
+          "transliteration": "zhōngbēi · dàbēi"
+        },
+        {
+          "id": "tpl-phrase-12-21",
+          "source": "Alipay",
+          "target": "支付宝",
+          "transliteration": "Zhīfùbǎo"
+        },
+        {
+          "id": "tpl-phrase-12-22",
+          "source": "Наличные",
+          "target": "现金",
+          "transliteration": "xiànjīn"
+        },
+        {
+          "id": "tpl-phrase-12-23",
+          "source": "Паспорт",
+          "target": "护照",
+          "transliteration": "hùzhào"
+        }
+      ],
+      "builtin": true
+    }
+  ],
+  "checklists": [
+    {
+      "id": "tpl-list-0",
+      "tripId": null,
+      "title": "Перед вылетом из дома",
+      "dayId": null,
+      "builtin": true,
+      "items": [
+        {
+          "id": "tpl-item-0-0",
+          "text": "Alipay установлен, баланс пополнен, привязан паспорт",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-0-1",
+          "text": "Транспортный QR 乘车码 активирован заранее",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-0-2",
+          "text": "Билеты в Гугун куплены на bookingticket.dpm.org.cn, паспорта в профиле",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-0-3",
+          "text": "Билеты в Universal куплены, имена совпадают с паспортами посимвольно",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-0-4",
+          "text": "Приложение Universal Beijing установлено",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-0-7",
+          "text": "Повербанки: до 100 Вт·ч, только в ручную кладь",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-0-8",
+          "text": "VPN настроен и проверен до вылета",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "tpl-list-1",
+      "tripId": null,
+      "title": "Что брать с собой каждый день",
+      "dayId": null,
+      "builtin": true,
+      "items": [
+        {
+          "id": "tpl-item-1-0",
+          "text": "Паспорт — в Гугун и Universal пускают только по нему",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-1-1",
+          "text": "Повербанк",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-1-2",
+          "text": "Вода",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-1-3",
+          "text": "Кепка или зонт — во дворах Гугуна тени нет",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-1-4",
+          "text": "Наличные на мелкие траты",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "tpl-list-2",
+      "tripId": null,
+      "title": "Что купить",
+      "dayId": null,
+      "builtin": true,
+      "items": [
+        {
+          "id": "tpl-item-2-0",
+          "text": "Кроссовки Li-Ning или Anta — дешевле, чем дома, в аутлете Яньша",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-1",
+          "text": "Пуховик или ветровка китайской марки",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-2",
+          "text": "Чай в Тайкули или в супермаркете, не в туристической лавке",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-3",
+          "text": "Термокружка или посуда",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-4",
+          "text": "Косметика и маски для лица",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-5",
+          "text": "Гостинцы: конфеты, лапша, снеки из супермаркета",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-6",
+          "text": "Powerbank с маркировкой CCC — единственный, который пустят в самолёт",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-7",
+          "text": "Переходник на китайскую розетку",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-8",
+          "text": "Магниты и мелочи с Великой стены",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-2-9",
+          "text": "Чек и бланк 退税 к каждой покупке дороже 500 CNY",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "tpl-list-3",
+      "tripId": null,
+      "title": "Возврат налога — по порядку",
+      "dayId": null,
+      "builtin": true,
+      "items": [
+        {
+          "id": "tpl-item-3-0",
+          "text": "1. Таможня 退税 в зале международных вылетов — ДО регистрации",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-3-1",
+          "text": "2. Только теперь сдать чемодан в багаж",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-3-2",
+          "text": "3. Паспортный контроль и досмотр",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-3-3",
+          "text": "4. Стойка возврата в чистой зоне — получить деньги",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-3-4",
+          "text": "Покупки не вскрывать, бирки не срезать",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-3-5",
+          "text": "Бланк 退税申请单 + счёт 增值税普通发票 + кассовый чек",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-3-6",
+          "text": "Имя в бланке латиницей строго как в паспорте",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "tpl-list-4",
+      "tripId": null,
+      "title": "Перед выходом в аэропорт",
+      "dayId": null,
+      "builtin": true,
+      "items": [
+        {
+          "id": "tpl-item-4-0",
+          "text": "Четыре паспорта",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-1",
+          "text": "Счёт за номер закрыт с вечера, на стойке ничего не ждём",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-2",
+          "text": "Чеки для возврата налога и покупки — в ручной клади",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-3",
+          "text": "Повербанки в ручной клади, маркировка CCC на месте",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-4",
+          "text": "Сейф в номере открыт и пуст",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-5",
+          "text": "Зарядки вынуты из розеток",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-6",
+          "text": "Чемодан в пределах 23 кг",
+          "checked": false
+        },
+        {
+          "id": "tpl-item-4-7",
+          "text": "Проверены ванная, тумбочки, под кроватью",
+          "checked": false
+        }
+      ]
+    }
+  ],
+  "bingo": [
+    {
+      "id": "tpl-bingo-0",
+      "text": "Заказать еду, тыкая пальцем в картинки",
+      "emoji": "🥟",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-1",
+      "text": "Сказать 买单 так, чтобы поняли с первого раза",
+      "emoji": "🗣",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-2",
+      "text": "Расплатиться через Alipay QR",
+      "emoji": "🧧",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-3",
+      "text": "Пройти в метро по транспортному QR",
+      "emoji": "🚇",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-4",
+      "text": "Спуститься с Великой стены на тобоггане",
+      "emoji": "🛝",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-5",
+      "text": "Дойти до 20-й башни Мутяньюй",
+      "emoji": "🏯",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-6",
+      "text": "Съесть утку по-пекински",
+      "emoji": "🦆",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-7",
+      "text": "Поесть хотпот из медного котла с трубой",
+      "emoji": "🍲",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-8",
+      "text": "Шашлыки на Гуйцзе прямо на гриле за столом",
+      "emoji": "🍢",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-9",
+      "text": "Найти Стену девяти драконов в Гугуне",
+      "emoji": "🐉",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-10",
+      "text": "Застать запуск заводных механизмов в Зале часов",
+      "emoji": "⏰",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-11",
+      "text": "Встретить закат на Цзиншане",
+      "emoji": "🌇",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-12",
+      "text": "Прокатиться на Запретном путешествии в Хогвартсе",
+      "emoji": "🧙",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-13",
+      "text": "Пережить Decepticoaster",
+      "emoji": "🤖",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-14",
+      "text": "Выпить сливочное пиво",
+      "emoji": "🍺",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-15",
+      "text": "Дойти до зоны Кунг-фу Панды, которой больше нигде нет",
+      "emoji": "🐼",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-16",
+      "text": "Купить Li-Ning или Anta дешевле 500 ¥",
+      "emoji": "👟",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-17",
+      "text": "Массаж стоп после перелёта",
+      "emoji": "💆",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-18",
+      "text": "Попросить китайца сфотографировать вас и получить хороший кадр",
+      "emoji": "📸",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-19",
+      "text": "Пройти по хутунам от Цзиншаня до Шичахая",
+      "emoji": "🎏",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-20",
+      "text": "Съесть радужную форель в деревне под стеной",
+      "emoji": "🐟",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-21",
+      "text": "Прогуляться по набережной Лянмахэ с подсветкой",
+      "emoji": "🌃",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-22",
+      "text": "Кофе в императорских ледниках 冰窖",
+      "emoji": "☕️",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-23",
+      "text": "Купить бабл-ти на улице",
+      "emoji": "🧋",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-24",
+      "text": "Услышать, как кто-то поёт или танцует в парке",
+      "emoji": "🎤",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-25",
+      "text": "Оформить бланк на возврат налога",
+      "emoji": "🧾",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-26",
+      "text": "Заказать Didi полностью самостоятельно",
+      "emoji": "🚕",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-27",
+      "text": "Увидеть, как местные играют в карты или сянци",
+      "emoji": "🀄️",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-28",
+      "text": "Съесть что-то, что не смогли опознать",
+      "emoji": "🥢",
+      "builtin": true,
+      "done": false
+    },
+    {
+      "id": "tpl-bingo-29",
+      "text": "Не спать в ночь перед вылетом и дожить до посадки",
+      "emoji": "🌙",
+      "builtin": true,
+      "done": false
+    }
+  ],
+  "author": {
+    "displayName": "NORMss",
+    "link": "https://github.com/NORMss"
+  },
+  "regionPackIds": [
+    "asia-v1"
+  ],
+  "tags": [
+    "Китай",
+    "город",
+    "неделя"
+  ],
+  "license": "CC-BY-4.0",
+  "formatVersion": 1,
+  "revision": 1
+}

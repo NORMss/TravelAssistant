@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Что приложение имеет право отдавать наружу: экспорт плана и фото дневника. -->
+<paths>
+    <files-path name="exports" path="exports/" />
+    <files-path name="photos" path="photos/" />
+    <cache-path name="share" path="share/" />
+</paths>
